@@ -41,9 +41,7 @@ public class Vector3D {
     }
 
     public boolean compareVectorLength(Vector3D vector) {
-        if (vectorLength() == vector.vectorLength()) {
-            return true;
-        }
+        if (vectorLength() == vector.vectorLength()) return true;
         return false;
     }
 
