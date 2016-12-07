@@ -1,8 +1,5 @@
 package laba2;
 
-/**
- * Created by aelmod-notebook on 04.12.2016.
- */
 public class App {
     public static void main(String[] args) {
         int variant = 2;

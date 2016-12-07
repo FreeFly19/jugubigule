@@ -1,8 +1,5 @@
 package laba1.task3;
 
-/**
- * Created by Євгеній on 07.12.2016.
- */
 public class Triangle {
     private double storona1;
     private double storona2;

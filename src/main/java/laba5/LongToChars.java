@@ -1,8 +1,5 @@
 package laba5;
 
-/**
- * Created by Євгеній on 07.12.2016.
- */
 public class LongToChars {
     public static char[] getChars(long num) {
         final char[] arr = new char[(int) (Math.log10(num) + 1)];

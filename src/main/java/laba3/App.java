@@ -1,8 +1,5 @@
 package laba3;
 
-/**
- * Created by Євгеній on 07.12.2016.
- */
 public class App {
     public static void main(String[] args) {
         Vector3D vector3D1 = new Vector3D(54, 87, 6);
