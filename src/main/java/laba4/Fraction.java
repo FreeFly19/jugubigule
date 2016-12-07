@@ -17,15 +17,15 @@ public class Fraction extends Pair {
     }
 
     public String partition() {
-        double doublePartitionA = a;
-        int intPartitionA = (int) doublePartitionA;
+        double partitionPartA = a;
+        int wholePartA = (int) partitionPartA;
 
-        double doublePartitionB = b;
-        int intPartitionB = (int) doublePartitionB;
+        double partitionPartB = b;
+        int wholePartB = (int) partitionPartB;
 
-        double v = doublePartitionA - intPartitionA;
-        double v1 = doublePartitionB - intPartitionB;
-        return ("Partitioned first number: \n" + "integer: " + intPartitionA + "\t" + "fractional : " + v +
-                "\nPartitioned second number: \n" + "integer: " + intPartitionB + "\t" + "fractional : " + v1);
+        double res1 = partitionPartA - wholePartA;
+        double res2 = partitionPartB - wholePartB;
+        return ("Partitioned first number: \n" + "integer: " + wholePartA + "\t" + "fractional : " + res1 +
+                "\nPartitioned second number: \n" + "integer: " + wholePartB + "\t" + "fractional : " + res2);
     }
 }
