@@ -1,0 +1,15 @@
+Addition vectors:
+X: 288.0
+Y: 654.0
+Z: 73.0
+Subtraction vectors:
+X: 180.0
+Y: 480.0
+Z: 61.0
+Multiply vectors:
+X: 540.0
+Y: 870.0
+Z: 60.0
+Scalar Product of Vectors: 443101.0
+Vertor length: 617.0364656971255
+Vectors identical

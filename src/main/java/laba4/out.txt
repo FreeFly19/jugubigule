@@ -1,0 +1,8 @@
+Second pair larger then first pair
+
+In first pair second parameter larger then second parameter in second pair
+
+Partitioned first number:
+integer: 10	fractional : 0.0
+Partitioned second number:
+integer: 5	fractional : 0.5

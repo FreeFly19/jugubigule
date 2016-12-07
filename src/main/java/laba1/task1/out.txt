@@ -1,0 +1,6 @@
+First Triangle object vars:
+Storona1: 5.0
+Storona2: 10.0
+Second Triangle object vars:
+Storona1: 58.0
+Storona2: 44.0

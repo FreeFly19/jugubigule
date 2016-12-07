@@ -1,0 +1,2 @@
+Storona 1: 45.0
+Storona 2: 99.0
