@@ -22,32 +22,32 @@ public class App {
         Fraction fraction = new Fraction(10, 5.5);
         Fraction fraction2 = new Fraction(10, 5);
         int fractionCompare = fraction.compareTo(fraction2);
-        switch (fractionCompare){
-            case 1:{
+        switch (fractionCompare) {
+            case 1: {
                 System.out.println("In first pair first parameter larger then first parameter in second pair");
                 break;
             }
-            case 2:{
+            case 2: {
                 System.out.println("In second pair first parameter larger then first parameter in first pair");
                 break;
             }
-            case 3:{
+            case 3: {
                 System.out.println("In first pair second parameter larger then second parameter in second pair");
                 break;
             }
-            case 4:{
+            case 4: {
                 System.out.println("In second pair second parameter larger then second parameter in first pair");
                 break;
             }
-            case 5:{
+            case 5: {
                 System.out.println("In first pair first parameter is first parameter in second pair");
                 break;
             }
-            case 6:{
+            case 6: {
                 System.out.println("In first pair second parameter is second parameter in second pair");
                 break;
             }
         }
-        System.out.println("\n"+fraction.partition());
+        System.out.println("\n" + fraction.partition());
     }
 }

@@ -15,7 +15,7 @@ public class Triangle {
         this.storona2 = storona2;
     }
 
-    public void print(){
-        System.out.println("Storona 1: "+storona1+"\n"+"Storona 2: "+storona2);
+    public void print() {
+        System.out.println("Storona 1: " + storona1 + "\n" + "Storona 2: " + storona2);
     }
 }

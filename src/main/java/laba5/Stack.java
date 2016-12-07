@@ -17,7 +17,7 @@ public class Stack<E> {
         return lastElement.value;
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return head == null;
     }
 

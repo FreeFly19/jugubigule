@@ -25,7 +25,7 @@ public class Fraction extends Pair {
 
         double v = doublePartitionA - intPartitionA;
         double v1 = doublePartitionB - intPartitionB;
-        return ("Partitioned first number: \n" + "integer: " + intPartitionA+"\t" + "fractional : " + v +
-                "\nPartitioned second number: \n" + "integer: " + intPartitionB+"\t" + "fractional : " + v1);
+        return ("Partitioned first number: \n" + "integer: " + intPartitionA + "\t" + "fractional : " + v +
+                "\nPartitioned second number: \n" + "integer: " + intPartitionB + "\t" + "fractional : " + v1);
     }
 }
