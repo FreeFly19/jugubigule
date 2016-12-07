@@ -40,10 +40,8 @@ public class Vector3D {
         return Math.sqrt(x * x + y * y + z * z);
     }
 
-    public boolean compareVectorLength(Vector3D vector){
-        double v = vectorLength();
-        double v1 = vector.vectorLength();
-        if (v==v1){
+    public boolean compareVectorLength(Vector3D vector) {
+        if (vectorLength() == vector.vectorLength()) {
             return true;
         }
         return false;
